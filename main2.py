@@ -11,16 +11,16 @@ Operator	Description
 >>	Bitwise right shift
 <<	Bitwise left shift"""
 
-A = 60
-B = 13
+a = 60
+b = 13
 # 60 = 0011 1100
 # 13 = 0000 1101
 
 
-c = A & B# 12 = 0000 1100
+c = a & b# 12 = 0000 1100
 print("Line 1 - Value of c is ", c)
 
-c = A | B
+c = a | b
 print("Line 2 - Value of c is ", c)
 
 c = a ^ b;        # 49 = 0011 0001
